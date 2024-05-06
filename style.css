@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: azure;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  border: 2px solid salmon;
+  padding: 80px 10px;
+}
+.title {
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.input-container {
+  margin-top: 30px;
+}
+
+label {
+  font-weight: 700;
+  color: brown;
+}
+
+input {
+  padding: 5px;
+  margin: 5px;
+  border: 1px dotted brown;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  color: white;
+  border: 3px solid brown;
+  background-color: brown;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#output {
+  margin-top: 20px; /* Add margin to create space below the button */
+}
+
+/* body {
+  margin: 0;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: azure;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+.input-container {
+  top: 50%;
+  left: 50%;
+}
+label {
+  font-weight: 700;
+  color: brown;
+}
+input {
+  padding: 5px;
+  margin: 5px;
+  border: 1px dotted brown;
+  border-radius: 3px;
+}
+button {
+  padding: 8px 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  color: white;
+  border: 3px solid brown;
+  background-color: brown;
+  border-radius: 5px;
+}
+button:hover {
+  opacity: 0.8;
+}
+#output {
+  margin-top: 30px;
+} */
